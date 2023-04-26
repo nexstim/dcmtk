@@ -25,7 +25,7 @@
         },
         "CMAKE_CONFIGURATION_TYPES": {
           "type": "STRING",
-          "value": "Debug;Release;MinSizeRel;RelWithDebInfo;UsableDebug"
+          "value": "Debug;Release;UsableDebug"
         },
         "CMAKE_CXX_FLAGS": {
           "type": "STRING",
@@ -35,17 +35,9 @@
           "type": "STRING",
           "value": "/MDd /RTCsu /Od /Ob0 /GS /D_DEBUG /DNBS_ENABLE_MEMORY_LEAK_DETECTION"
         },
-        "CMAKE_CXX_FLAGS_MINSIZEREL": {
-          "type": "STRING",
-          "value": "/MD /O1 /Os /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
-        },
         "CMAKE_CXX_FLAGS_RELEASE": {
           "type": "STRING",
-          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
-        },
-        "CMAKE_CXX_FLAGS_RELWITHDEBINFO": {
-          "type": "STRING",
-          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
+          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /DNDEBUG /Zi"
         },
         "CMAKE_CXX_FLAGS_USABLEDEBUG": {
           "type": "STRING",
@@ -63,17 +55,9 @@
           "type": "STRING",
           "value": "/MDd /RTCsu /Od /Ob0 /D_DEBUG /DNBS_ENABLE_MEMORY_LEAK_DETECTION"
         },
-        "CMAKE_C_FLAGS_MINSIZEREL": {
-          "type": "STRING",
-          "value": "/MD /O1 /Os /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
-        },
         "CMAKE_C_FLAGS_RELEASE": {
           "type": "STRING",
-          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
-        },
-        "CMAKE_C_FLAGS_RELWITHDEBINFO": {
-          "type": "STRING",
-          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /GL /DNDEBUG /Zi"
+          "value": "/MD /O2 /Oi /Ot /Oy /Ob2 /Gs /DNDEBUG /Zi"
         },
         "CMAKE_C_FLAGS_USABLEDEBUG": {
           "type": "STRING",
@@ -103,17 +87,9 @@
           "type": "STRING",
           "value": ""
         },
-        "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL": {
-          "type": "STRING",
-          "value": "/LTCG"
-        },
         "CMAKE_STATIC_LINKER_FLAGS_RELEASE": {
           "type": "STRING",
-          "value": "/LTCG"
-        },
-        "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO": {
-          "type": "STRING",
-          "value": "/LTCG"
+          "value": ""
         },
         "DCMTK_COMPILE_WIN32_MULTITHREADED_DLL": {
           "type": "BOOL",
